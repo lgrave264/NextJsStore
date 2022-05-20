@@ -13,7 +13,17 @@ export default function Home() {
 
         <main className="storeMain">
             <div className="loginbox">
-
+                <p className="loginTitle">Login</p>
+                <hr/>
+                <form>
+                    <input id="loginUser" type="text" placeholder="Username..."></input>
+                    <br/>
+                    <br/>
+                    <input id="loginPass" type="password" placeholder="Password..."></input>
+                    <br/>
+                    <br/>
+                    <button id="loginButton">Login</button>
+                </form>
             </div>
         </main>
     </div>
