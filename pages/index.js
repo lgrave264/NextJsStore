@@ -12,8 +12,8 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <div>
-          
+        <div class="test">
+          dfghj
         </div>
       </main>
     </div>

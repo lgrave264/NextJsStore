@@ -4,13 +4,16 @@ const nft = ({nft}) =>{
 	return(
 		<div className='bigBox'>
 			{nft.map((rec) => {
-				const {id,name,image_url,token_id} = rec;
+				const {id,name,image_url,token_id,traits} = rec;
 				return(
 					<article key={id} className="nftbox">
                         <img className="nftimg" src={image_url}/>
                             {name}<br/>
                             ID:{token_id}
                             <hr/>
+							{traits[0].value}
+							<br/>
+							{traits[1].value}
 					</article>
 				)
 			})}

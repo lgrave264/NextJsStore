@@ -60,7 +60,6 @@ const [toggle, setToggle] = useState(false);
                     <li className='links'><a href="/">Homepage</a></li>
                     <li className='links'><a href="/store">Store</a></li>
                     <li className='links'><a href="/login">Login</a></li>
-                    <li className='links'><a href="https://app.netlify.com/teams/lpgra256/overview">hi2</a></li>
                 </ul>
             </header>
         )
