@@ -14,6 +14,9 @@ const nft = ({nft}) =>{
 							{traits[0].value}
 							<br/>
 							{traits[1].value}
+							<br/>
+							<a href="/gpay"><img id="gpay" src="./assets/gpay.jpg" alt="google pay"/></a>
+							
 					</article>
 				)
 			})}

@@ -145,9 +145,11 @@
     margin-right: 3px;
     margin-bottom: 5px;
    }
+  #aboutBox{
+    margin-right: 5rem;
+  }
     
-    
-   /* @media (max-width: 880px) {
+   @media (max-width: 880px) {
     
     .footer_distributed{
     font: bold 14px sans-serif;
@@ -175,4 +177,4 @@
   
   #aboutBox{
    max-width: 25rem;
-  } */
+  }

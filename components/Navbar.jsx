@@ -46,8 +46,8 @@ const [toggle, setToggle] = useState(false);
         return(
             <header>
                 <ul className='navbar'>
-                    <li id='title2'>CODING</li>
-                    <li><button onClick={() => setToggle(!toggle)}id='menu'><AiOutlineMenu size={20} color={'lightblue'}/></button></li>
+                <li><img id="logoimg" src="./assets/logo.png" alt="PixelTs"/></li>
+                    <li><button onClick={() => setToggle(!toggle)}id='menu'><AiOutlineMenu id="menubut" size={25} color={'darkred'}/></button></li>
                 </ul>
                 <Small toggle={toggle}/>
             </header>
@@ -56,9 +56,10 @@ const [toggle, setToggle] = useState(false);
         return (
             <header>
                 <ul  className='navbar'>
-                    <li id='title'>Luca Graves</li>
+                    <li><img id="logoimg" src="./assets/logo.png" alt="PixelTs"/></li>
                     <li className='links'><a href="/">Homepage</a></li>
                     <li className='links'><a href="/store">Store</a></li>
+                    <li className='links'><a href="/gpay">Order</a></li>
                     <li className='links'><a href="/login">Login</a></li>
                 </ul>
             </header>

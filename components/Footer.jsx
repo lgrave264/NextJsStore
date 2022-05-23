@@ -16,8 +16,8 @@ const foote = () => {
                     </div>
                 </div>
                 <div  className={styles.center}>
-                    <h3>About West-mec</h3>
-                    <p id="aboutBox">Western Maricopa Education Center (West-MEC) is a public school district that provides industry-standard career training programs for both high school and adult students in Phoenix, Arizona. West-MEC focuses solely on innovative career and technical education programs that prepare students with the advanced skills necessary to enter the workforce and pursue continuing education at our education center.</p>
+                    <h3>About PizelTs</h3>
+                    <p id={styles.aboutBox}>PixelTs is an NFT web store where you can browser a various amount of NFts. Not just any NFTs, we specialize in pixel NFTs for those who find it either hard,annoying or tedious of finding the good ones, our inventory rotates once a week so make sure to check what we have as it will change in the near future. All of our NFTs are legit and are copyrighted.</p>
                 </div>
                 <div id="rightfoot" className={styles.footer_right}>
                     <div className={styles.footer_company_about}>

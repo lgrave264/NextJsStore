@@ -9,6 +9,7 @@ const Small = ({toggle}) => {
                         <ul className='links2'>
                             <li className='links'><a href="/">Homepage</a></li>
                             <li className='links'><a href="/store">Store</a></li>
+                            <li className='links'><a href="/gpay">Order</a></li>
                             <li className='links'><a href="/login">Login</a></li>
                         </ul>
                     </div>
