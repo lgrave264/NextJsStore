@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 import { AiFillGithub } from 'react-icons/ai';
 
 const Small = ({toggle}) => {
@@ -7,10 +8,10 @@ const Small = ({toggle}) => {
                 <div className='small'>
                     <div className='divlinks2'>
                         <ul className='links2'>
-                            <li className='links'><a href="/">Homepage</a></li>
-                            <li className='links'><a href="/store">Store</a></li>
-                            <li className='links'><a href="/gpay">Order</a></li>
-                            <li className='links'><a href="/login">Login</a></li>
+                            <li className='links'><Link href="/"><a>Homepage</a></Link></li>
+                            <li className='links'><Link href="/store"><a>Store</a></Link></li>
+                            <li className='links'><Link href="/gpay"><a>Order</a></Link></li>
+                            <li className='links'><Link href="/login"><a>Login</a></Link></li>
                         </ul>
                     </div>
                 </div>

@@ -1,6 +1,9 @@
+/* eslint-disable */
 import React, {useEffect, useState} from 'react'
 import Small from './Small'
 import { AiOutlineMenu } from 'react-icons/ai';
+import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
     const [size, setSize] = useState('558.90');
@@ -57,10 +60,10 @@ const [toggle, setToggle] = useState(false);
             <header>
                 <ul  className='navbar'>
                     <li><img id="logoimg" src="./assets/logo.png" alt="PixelTs"/></li>
-                    <li className='links'><a href="/">Homepage</a></li>
-                    <li className='links'><a href="/store">Store</a></li>
-                    <li className='links'><a href="/gpay">Order</a></li>
-                    <li className='links'><a href="/login">Login</a></li>
+                    <li className='links'><Link href="/"><a>Homepage</a></Link></li>
+                    <li className='links'><Link href="/store"><a>Store</a></Link></li>
+                    <li className='links'><Link href="/gpay"><a>Order</a></Link></li>
+                    <li className='links'><Link href="/login"><a>Login</a></Link></li>
                 </ul>
             </header>
         )

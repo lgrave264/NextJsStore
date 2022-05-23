@@ -1,4 +1,7 @@
+/* eslint-disable */
 import React from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
 
 const nft = ({nft}) =>{
 	return(
@@ -15,8 +18,7 @@ const nft = ({nft}) =>{
 							<br/>
 							{traits[1].value}
 							<br/>
-							<a href="/gpay"><img id="gpay" src="./assets/gpay.jpg" alt="google pay"/></a>
-							
+							<Link href="/gpay"><a><Image id="gpay" src="./assets/gpay.jpg" alt="google pay"/></a></Link>
 					</article>
 				)
 			})}
