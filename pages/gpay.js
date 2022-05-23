@@ -19,7 +19,7 @@ export default function Home() {
             <p className="loginTitle">Payment</p>
             <hr/>
             <p className="gpaysmalltitle">NFT Code Number</p>
-            <input type='text' className="gpayid" maxlength="4" placeholder="NFT ID#..."></input>
+            <input type='text' className="gpayid" maxLength="4" placeholder="NFT ID#..."></input>
             <hr/>
             <p className="gpaysmalltitle">Contact Information</p>
             <input type='text' className="gpaycard" placeholder="First Name..."></input>
@@ -55,7 +55,7 @@ export default function Home() {
             EXP:  <input type='date' className="gpayinput" placeholder="exp (##/##)"></input>
             <br/>
             <br/>
-            <input type='text' className="gpaysec" maxlength="4" placeholder="Security Code..."></input>
+            <input type='text' className="gpaysec" maxLength="4" placeholder="Security Code..."></input>
             <hr/>
             <button id="loginButton">Submit</button>
             </form>
